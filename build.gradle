@@ -21,6 +21,13 @@ allprojects {
     }
 }
 
+project.ext {
+    compileSdkVersion = 28
+    retrofitVersion = "2.4.0"
+    gsonVersion = "2.8.2"
+    cookieVersion = "v1.0.1"
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
